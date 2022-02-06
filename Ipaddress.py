@@ -39,7 +39,7 @@ def create_image_from_text(in_text):
 
 # DISPLAY
 def scroll_txt(image, text_width):
-    unicornhathd.rotation(0)
+    unicornhathd.rotation(90)
     for scroll in range(text_width - width):
         for x in range(width):
             for y in range(height):
